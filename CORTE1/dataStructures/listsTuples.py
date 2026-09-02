@@ -19,13 +19,13 @@ my_lista.insert(3, 'Negro')  #Inserta el elemento "Negro" en la posicion 3
 print(my_lista)
 
 
-my_lista.extend(['Marron', 'Gris'])   #Concatena a otra lista
+my_lista.extend(['Marron', 'Gris'])   #Concatena a otra lista, agrega varios elementos
 print(my_lista)
 
-print(my_lista.index('Azul'))  #Busca y ,uestra donde se encuentra "Azul"
+print(my_lista.index('Azul'))  #Busca y ,uestra donde se encuentra "Azul", busca una posicion
 
 #my_lista.remove('Magenta')
-my_lista.remove('Marron')   #Elimina el elemento "Marron" de la lista
+my_lista.remove('Marron')   #Elimina el elemento "Marron" de la lista, 
 print(my_lista)
 
 my_lista.insert(8, 'Marron')    #Inserta nuevamente "Marron" en la posicion 8
@@ -54,7 +54,7 @@ print(my_NumList)
 #print(my_listaSort)
 
 #Ordenando lista de mayor a menor
-my_NumList.sort(reverse = True)
+my_NumList.sort(reverse = True)   #sort() ordena
 print("De menor a mayor: ", my_NumList)
 
 
