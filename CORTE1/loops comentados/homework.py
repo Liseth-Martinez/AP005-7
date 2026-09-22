@@ -1,21 +1,19 @@
-a = input("Enter a number: ")  # Pide al usuario que ingrese un número
-a = int(a)  # Convierte el valor ingresado a entero
-b = input("Enter b number: ")   # Pide al usuario que ingrese otro número
-b = float(b)  # Convierte el valor ingresado a decimal
-c = a + b   # Suma los valores de a y b
+a = input("Enter a number: ")            # Pide al usuario un número
+a = int(a)                               # Convierte a a entero
+b = input("Enter b number: ")            # Pide al usuario otro número
+b = float(b)                             # Convierte b a decimal
+c = a + b                                # Suma a y b
 
-# Compara si a y b tienen el mismo valor
-if a == b:
-    print("equal")
-else:
-    print("Different")
+if a == b:                               # Compara si a y b tienen el mismo valor
+    print("equal")                       # Muestra que son iguales
+else:                                    # Si los valores son diferentes
+    print("Different")                   # Muestra que son diferentes
 
-print("Type of a is: ", type(a))  # Muestra el tipo de dato de a
-print("Type of b is: ", type(b))  # Muestra el tipo de dato de b
-print("c = ", c)  # Muestra el resultado de la suma
+print("Type of a is: ", type(a))         # Muestra el tipo de dato de a
+print("Type of b is: ", type(b))         # Muestra el tipo de dato de b
+print("c = ", c)                         # Muestra el resultado de la suma
 
-# Compara si a y b son del mismo tipo de dato
-if type(a) == type(b):
-    print("a and b are of the same type")
-else:
-    print("a and b are of different type")
+if type(a) == type(b):                   # Compara si a y b son del mismo tipo
+    print("a and b are of the same type")  # Indica que tienen el mismo tipo
+else:                                    # Si tienen tipos diferentes
+    print("a and b are of different type") # Indica que tienen diferente tipo
